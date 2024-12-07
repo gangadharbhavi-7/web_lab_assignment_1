@@ -1,0 +1,79 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.pin{
+    background-color: orangered;
+    width:100%;
+    height:20px;
+    margin-top: 20px;
+}
+
+.pin ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pin ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.pin ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color:white;
+    font-family: 'Georgia', serif;
+
+}
+
+h2{
+    color:black;
+    font-family: 'Georgia', serif;
+
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Additional styling */
+.resume ul, .bio-data ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer p {
+    margin: 0;
+}
